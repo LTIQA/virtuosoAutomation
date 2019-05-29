@@ -1,3 +1,9 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'macOS-10.14'
+
 steps:
 - task: AppCenterTest@1
   inputs:
