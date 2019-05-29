@@ -1,3 +1,4 @@
+steps:
 - task: AppCenterTest@11
   inputs:
     appFile: '../target/upload/test-classes/virtuoso.apk'
