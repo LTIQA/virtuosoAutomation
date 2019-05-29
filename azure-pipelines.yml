@@ -10,5 +10,5 @@ steps:
   
 
 - script: |
-    appcenter test run appium --app "lti.qa001/SampleAndroidApp" --devices 457b16d9 --app-path ../src/test/resources/virtuoso.apk  --test-series "master" --locale "en_US" --build-dir target/upload
+    appcenter test run appium --app "lti.qa001/SampleAndroidApp" --devices 457b16d9 --app-path /Users/vsts/agent/2.150.3/work/1/src/test/resources/virtuoso.apk  --test-series "master" --locale "en_US" --build-dir target/upload
   displayName: 'Run a multi-line script'
