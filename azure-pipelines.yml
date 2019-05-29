@@ -11,5 +11,5 @@ steps:
 
 - script: |
     artifactsDirectory: '$(Build.ArtifactStagingDirectory)/AppCenterTest'
-    appcenter test run appium --app "lti.qa001/SampleAndroidApp" --devices 457b16d9 --app-path $(Build.ArtifactStagingDirectory)/AppCenterTest/src/test/resources/virtuoso.apk  --test-series "master" --locale "en_US" --build-dir target/upload
+    appcenter test run appium --app "lti.qa001/SampleAndroidApp" --devices 457b16d9 --app-path $(Build.ArtifactStagingDirectory)/AppCenterTest/virtuosoAutomation/src/test/resources/virtuoso.apk  --test-series "master" --locale "en_US" --build-dir target/upload
   displayName: 'Run a multi-line script'
