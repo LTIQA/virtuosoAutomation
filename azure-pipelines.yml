@@ -10,7 +10,7 @@ pool:
   vmImage: 'macOS-10.14'
 
 steps:
-- script: echo Hello, world!
+- script: appcenter login --token 5c73bb7b64b6a3e8f6fb5baba9fd479d3a891881
   displayName: 'Run a one-line script'
   
 
