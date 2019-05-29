@@ -7,7 +7,7 @@ pool:
 steps:
 - task: AppCenterTest@1
   inputs:
-    appFile: '../target/upload/test-classes/virtuoso.apk'
+    appFile: '../src/test/resources/virtuoso.apk'
     artifactsDirectory: '$(Build.ArtifactStagingDirectory)/AppCenterTest'
     frameworkOption: 'appium'
     appiumBuildDirectory: 'target/upload'
