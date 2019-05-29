@@ -20,7 +20,6 @@ steps:
     artifactsDirectory: '$(Build.ArtifactStagingDirectory)/AppCenterTest'
     frameworkOption: 'appium'
     appiumBuildDirectory: 'target/upload'
-    credentialsOption: 'inputs'
     appSlug: 'lti.qa001/SampleAndroidApp'
     devices: '457b16d9'
     localeOption: 'en_US'
