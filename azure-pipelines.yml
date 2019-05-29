@@ -14,10 +14,16 @@ steps:
   displayName: 'Run a one-line script'
   
 
-- script: |
-    path: PutMyCodeHere
-    appcenter test run appium --app "lti.qa001/SampleAndroidApp" --devices 457b16d9 --app-path **/*.apk  --test-series "master" --locale "en_US" --build-dir target/upload
-  displayName: 'Run a multi-line script'
+- task: AppCenterTest@1
+  inputs:
+    appFile: '**/*.apk'
+    artifactsDirectory: '$(Build.ArtifactStagingDirectory)/AppCenterTest'
+    frameworkOption: 'appium'
+    appiumBuildDirectory: 'target/upload'
+    credentialsOption: 'inputs'
+    appSlug: 'lti.qa001/SampleAndroidApp'
+    devices: '457b16d9'
+    localeOption: 'en_US'
 
 
   # appcenter test run appium --app "VirtuosoTest/Virtuoso-Android" --devices "VirtuosoTest/demodevices" --app-path pathToFile.apk  --test-series "login" --locale "en_US" --build-dir target/upload
