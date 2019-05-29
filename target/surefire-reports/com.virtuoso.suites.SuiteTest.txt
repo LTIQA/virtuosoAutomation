@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.virtuoso.suites.SuiteTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 102.371 s <<< FAILURE! - in com.virtuoso.suites.SuiteTest
+verificationApproveRequestTPH(com.virtuoso.suites.testcases.mobile.RequestTPH)  Time elapsed: 6.358 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+
+verificationRejectRequestTPH(com.virtuoso.suites.testcases.mobile.RequestTPH)  Time elapsed: 3.045 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+
+verificationRejectRequestRR(com.virtuoso.suites.testcases.mobile.RequestRR)  Time elapsed: 4.253 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+
+verificationRejectRequestNBUE(com.virtuoso.suites.testcases.mobile.RequestNBUE)  Time elapsed: 3.125 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+
+verificationApproveRequestNBUE(com.virtuoso.suites.testcases.mobile.RequestNBUE)  Time elapsed: 2.9 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+
