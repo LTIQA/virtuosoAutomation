@@ -1,5 +1,4 @@
-
-- task: AppCenterTest@1
+- task: AppCenterTest@11
   inputs:
     appFile: '../target/upload/test-classes/virtuoso.apk'
     artifactsDirectory: '$(Build.ArtifactStagingDirectory)/AppCenterTest'
